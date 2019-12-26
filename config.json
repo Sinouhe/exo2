@@ -1,0 +1,6 @@
+{
+    "rootAPI": "/api/v1",
+    "port": 4202,
+    "dataTennisPlayer": "https://alivebyacadomia.github.io/headtohead.json"
+}
+
