@@ -46,8 +46,12 @@ in case of suuccess
 check the status of the response before using data to know if the response of the request is correct.
 
 the routes are :
+
     /api/v1/players
+
     to return all the players
 
-    /api/v1//players/:id
+
+    /api/v1/players/:id
+
     to have a specific id player, if player doest exist, 404 page is returned.
