@@ -1,12 +1,15 @@
 # exo2
 
 use 
-npm install 
+
+"npm install"
 
 to install all dependencies.
 
 use 
-npm run dev 
+
+"npm run dev"
+
 to launch the server.
 
 default port is 4202, you can configure it on the config.json file.
