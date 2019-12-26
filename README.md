@@ -14,20 +14,32 @@ to launch the server.
 
 default port is 4202, you can configure it on the config.json file.
 
-the routes of this api starts by "/api/v1", where v1 is version of the api, you can upgreade or change this path on the config.json.
+the routes of this api starts by "/api/v1", where v1 is version of the api, you can upgread or change this root path on the config.json.
 
-all the return from each routes is a json lie this :
+all the return from each routes is a json like this :
+
 in case of error
+
 {
+
     status: 'error',
+    
     result: data,
+    
     message: message
+
 }
+
 in case of suuccess
+
 {
+
     status: 'success',
+
     result: data,
+
     message: message
+
 }
 
 
